@@ -5,16 +5,25 @@
  */
 
 body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
+    /*font-family: 'Inconsolata', monospace;*/
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 p.small {
     font-size: 16px;
+}
+
+.skill-set{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 a,
@@ -23,6 +32,16 @@ a:focus,
 a:active,
 a.active {
     color: gold;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+    font-size: 20px;
 }
 
 h1,
@@ -155,19 +174,19 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-    color: white;
+    color: gold;
 }
 
 .navbar-custom .navbar-nav li.active a {
-    color: gold;
-    background: white;
+    color: white;
+    background: #2C3E50;
 }
 
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-    color: gold;
-    background: white;
+    color: white;
+    background: #2C3E50;
 }
 
 .navbar-custom .navbar-toggle {
