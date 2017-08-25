@@ -19,7 +19,7 @@ p.small {
     font-size: 16px;
 }
 
-.skill-set{
+.skill-set {
     list-style-type: none;
     font-size: 20px;
     text-align: justify;
@@ -34,12 +34,12 @@ a.active {
     color: gold;
 }
 
-.table-borderless > tbody > tr > td,
-.table-borderless > tbody > tr > th,
-.table-borderless > tfoot > tr > td,
-.table-borderless > tfoot > tr > th,
-.table-borderless > thead > tr > td,
-.table-borderless > thead > tr > th {
+.table-borderless>tbody>tr>td,
+.table-borderless>tbody>tr>th,
+.table-borderless>tfoot>tr>td,
+.table-borderless>tfoot>tr>th,
+.table-borderless>thead>tr>td,
+.table-borderless>thead>tr>th {
     border: none;
     font-size: 20px;
 }
@@ -150,6 +150,14 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-brand {
     color: gold;
+}
+
+.btn_outline,
+.btn_outline:hover,
+.btn_outline:active,
+.btn_outline:visited,
+{
+    outline: 0;
 }
 
 .navbar-custom .navbar-brand:hover,
